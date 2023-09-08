@@ -95,3 +95,20 @@ Copiamos la dirección del repositorio remoto de repo01, accedemos a un director
 ![Error](Ejercicio_2.3.png)
 
 Commit realizado en el repositorio clonado.
+
+---
+---
+# **Ejercicio 2.4: Resumen**
+| Comando | Función |
+|:--- |:--- |
+| git config | Permite configurar el nombre y correo del usuario
+| git init | Inicializa el repositorio |
+git status | Permite ver el estado de los ficheros |
+| git add | Añade los ficheros al staging area |
+| git commit | Envía los ficheros añadidos al repositorio local |
+| git log | Muestra un historial de los commits |
+| git remote add origin | Enlaza el repositorio local con el remoto |
+| git branch | Cambia el nombre de la rama |
+| git remote -v | Muestra los repositorios remotos asociados |
+| git push | Sube los cambios a un repositorio remoto |
+| git clone | Clona un repositorio |
