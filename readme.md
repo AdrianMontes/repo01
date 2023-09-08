@@ -74,3 +74,24 @@ Aquí he subido todos los cambios que llevamos hasta ahora.
 ![Error](Ejercicio_1.9.png)
 
 Los cambios se han realizado correctamente desde el repositorio local. La documentación Markdown se mostrará debajo de los archivos subidos.
+
+---
+---
+# **Ejercicio 2.1**
+![Error](Ejercicio_2.1.png)
+
+Repositorio 'repo02' creado. En este caso, se le considera un repositorio remoto debido a que solo se encuentra en GitHub y no tiene un directorio local asociado.
+
+---
+---
+# **Ejercicio 2.2**
+![Error](Ejercicio_2.2.png)
+
+Copiamos la dirección del repositorio remoto de repo01, accedemos a un directorio distinto y escribimos el comando 'git clone "dirección"', donde "dirección" es la dirección del repositorio remoto. Al hacerlo, se nos clonará el repositorio.
+
+---
+---
+# **Ejercicio 2.3**
+![Error](Ejercicio_2.3.png)
+
+Commit realizado en el repositorio clonado.
