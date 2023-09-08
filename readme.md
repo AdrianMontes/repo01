@@ -36,7 +36,7 @@ Finalmente, para pasarlos al repositorio pondremos el comando 'git commit -m "me
 # **Ejercicio 1.4**
 ![Error](Ejercicio_1.4.png)
 
-Al escribir el ocmando 'git push', nos saldrá un error y aparentemente no ocurrirá nada. El problema es que no hemos creado un repositorio en GitHub y tampoco hemos asociado la dirección del mismo.
+Al escribir el comando 'git push', nos saldrá un error y aparentemente no ocurrirá nada. El problema es que no hemos creado un repositorio en GitHub y tampoco hemos asociado la dirección del mismo.
 
 ---
 ---
@@ -64,3 +64,13 @@ Al escribir de nuevo el comando 'git remote -v', nos saldrá el repositorio remo
 ---
 ---
 # **Ejercicio 1.8**
+![Error](Ejercicio_1.8.png)
+
+Aquí he subido todos los cambios que llevamos hasta ahora.
+
+---
+---
+# **Ejercicio 1.9**
+![Error](Ejercicio_1.9.png)
+
+Los cambios se han realizado correctamente desde el repositorio local. La documentación Markdown se mostrará debajo de los archivos subidos.
