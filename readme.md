@@ -228,3 +228,14 @@ Resultado mediante el plugin y la línea de comandos.
 ---
 # **Ejercicio 5.8**
 La diferencia entre FF y NoFF merges es que en FF se hace todo en una misma rama lineal hacia adelante, mientras que en NoFF, los cambios se van haciendo en ramas diferentes hasta fusionarlas en una misma.
+
+---
+---
+# **Ejercicio 6**
+![Error](Ejercicio_6.1.png)
+
+Para hacer el alias, tendremos que añadirlo al archivo bashrc. Para ello, escribiremos el comando "nano ~/.bashrc" para acceder al fichero y dejaremos el fichero tal cual está en la imagen de arriba. Guardamos con Ctrl + O y salimos del fichero con Ctrl + X.
+
+![Error](Ejercicio_6.2.png)
+
+Al salir del archivo, escribimos "source ~/.bashrc" para recargarlo y aplicar los cambios. Ahora, cada vez que escribamos "gitadog", se nos mostrarán todos los commits; como si escribieramos "git log --all --decorate --oneline --graph".
