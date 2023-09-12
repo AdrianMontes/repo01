@@ -174,3 +174,57 @@ Eliminamos la rama anteriormente creada con el comando "git branch -d fastforwar
 ![Error](Ejercicio_4.8.png)
 
 Como se puede comprobar, el comando para eliminar la rama ha funcionado correctamente.
+
+---
+---
+# **Ejercicio 5.1**
+![Error](Ejercicio_5.1.png)
+
+Repositorio local y remoto creados.
+
+---
+---
+# **Ejercicio 5.2**
+![Error](Ejercicio_5.2.png)
+
+Creamos el readme.md dentro del directorio indicado.
+
+---
+---
+# **Ejercicio 5.3**
+![Error](Ejercicio_5.3.png)
+
+Aquí he creado la rama y me he situado en ella.
+
+---
+---
+# **Ejercicio 5.4**
+![Error](Ejercicio_5.4.png)
+
+Commits realizados en la rama indicada.
+
+---
+---
+# **Ejercicio 5.5**
+![Error](Ejercicio_5.5.png)
+
+Antes de hacer el merge, he  realizado los push en cada rama.
+
+---
+---
+# **Ejercicio 5.6**
+![Error](Ejercicio_5.6.png)
+
+Cambiamos a la rama de main e insertamos el comando 'git merge --no-f adrian12092023 -m "Ejemplo NoFF merge"'. Esto fusionará ambas ramas en la principal y todos los cambios de la rama adrian12092023 se aplicarán a la rama main.
+
+---
+---
+# **Ejercicio 5.7**
+![Error](Ejercicio_5.7.png)
+
+Resultado mediante el plugin y la línea de comandos.
+
+---
+---
+# **Ejercicio 5.8**
+La diferencia entre FF y NoFF merges es que en FF se hace todo en una misma rama lineal hacia adelante, mientras que en NoFF, los cambios se van haciendo en ramas diferentes hasta fusionarlas en una misma.
