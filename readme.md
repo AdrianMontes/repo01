@@ -112,3 +112,65 @@ git status | Permite ver el estado de los ficheros |
 | git remote -v | Muestra los repositorios remotos asociados |
 | git push | Sube los cambios a un repositorio remoto |
 | git clone | Clona un repositorio |
+
+---
+---
+# **Ejercicio 4.1**
+![Error](Ejercicio_4.1.png)
+
+Repositorio creado en local y en remoto.
+
+---
+---
+# **Ejercicio 4.2**
+![Error](Ejercicio_4.2.png)
+
+Añadido el fichero readme.md al repositorio remoto.
+
+---
+---
+# **Ejercicio 4.3**
+![Error](Ejercicio_4.3.png)
+
+Para crear una rama, usaremos el comando "git branch fastforward". Esto creará la rama 'fastforward'.
+
+Para pasar a esta rama, insertamos en la terminal "git checkout fastforward". Al escribir este comando, nos localizaremos en la rama 'fastforward'.
+
+---
+---
+# **Ejercicio 4.4**
+![Error](Ejercicio_4.4.png)
+
+Fichero readme.md editado.
+
+---
+---
+# **Ejercicio 4.5**
+![Error](Ejercicio_4.5.png)
+
+Aquí se muestran todos los commits que se han hecho. Como se puede ver, se han hecho 3 commits desde la rama 'fastforward'.
+
+---
+---
+# **Ejercicio 4.6**
+![Error](Ejercicio_4.6.1.png)
+
+Ahora vamos a fusionar las ramas y realizar los cambios hechos por la rama 'fastforward'. Para hacerlo, cambiaremos a la rama 'main' e introduciremos el comando "git merge fastforward".
+
+![Error](Ejercicio_4.6.2.png)
+
+A continuación, hacemos un push y los cambios del commit se nos actualizarán en el repositorio remoto.
+
+---
+---
+# **Ejercicio 4.7**
+![Error](Ejercicio_4.7.png)
+
+Eliminamos la rama anteriormente creada con el comando "git branch -d fastforward".
+
+---
+---
+# **Ejercicio 4.8**
+![Error](Ejercicio_4.8.png)
+
+Como se puede comprobar, el comando para eliminar la rama ha funcionado correctamente.
