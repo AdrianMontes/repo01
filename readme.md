@@ -239,3 +239,76 @@ Para hacer el alias, tendremos que añadirlo al archivo bashrc. Para ello, escri
 ![Error](Ejercicio_6.2.png)
 
 Al salir del archivo, escribimos "source ~/.bashrc" para recargarlo y aplicar los cambios. Ahora, cada vez que escribamos "gitadog", se nos mostrarán todos los commits; como si escribieramos "git log --all --decorate --oneline --graph".
+
+---
+---
+# **Conflictos 1**
+![Error](Conflictos_1.png)
+
+Creamos un repositorio con un readme incluido.
+
+---
+---
+# **Conflictos 2**
+![Error](Conflictos_2.png)
+
+Contenido copiado del repositorio.
+
+---
+---
+# **Conflictos 3**
+![Error](Conflictos_3.png)
+
+Para clonar el repositorio, tendremos que copiar el enlace del repositorio remoto e insertar el comando "git clone 'enlace'", donde 'enlace' es el enlace del repositorio. Al hacerlo, se nos clonará todo el contenido en el directorio actual. Podemos comprobar también que el repositorio local está enlazado con el remoto con el comando 'git remote -v'.
+
+---
+---
+# **Conflictos 4**
+![Error](Conflictos_4.png)
+
+Readme modificado en el repositorio remoto.
+
+---
+---
+# **Conflictos 5**
+![Error](Conflictos_5.png)
+
+Readme modificado en el repositorio local.
+
+---
+---
+# **Conflictos 6**
+![Error](Conflictos_6.png)
+
+Al intentar hacer un push en el repositorio local al remoto, nos resultará imposible debido a que hay conflictos entre ambos repositorios.
+
+---
+---
+# **Conflictos 7**
+![Error](Conflictos_7.png)
+
+Introducimos 'git pull' y se nos dará a elegir la versión.
+
+---
+---
+# **Conflictos 8**
+![Error](Conflictos_8.png)
+
+En mi caso, he elegido el cambio entrante, ya que me interesaba más la versión del repositorio remoto.
+
+---
+---
+# **Conflictos extra**
+![Error](Extra_1.png)
+
+Por un lado, tengo mi repositorio remoto, donde todas las letras 'a' han sido cambiadas por '@'. Por otro lado, tengo mi repositorio local donde las letras 'e' han sido substituidas por '€'.
+
+Para los reemplazos, he usado expresiones regulares.
+
+![Error](Extra_2.png)
+
+Esto es lo que ocurre cuando intentamos hacer un 'git pull' desde el repositorio local. Al intentar fusionar los contenidos de ambos repositorios, nos dará el resultado que se muestra en la imagen de arriba.
+
+![Error](Extra_3.png)
+
+He intentado combinar ambos repositorios, pero por alguna razón no me es posible.
