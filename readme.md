@@ -242,6 +242,82 @@ Al salir del archivo, escribimos "source ~/.bashrc" para recargarlo y aplicar lo
 
 ---
 ---
+# **Práctica 1**
+![Error](Practica_1.png)
+Repositorio remoto clonado en un directorio.
+
+---
+---
+# **Práctica 2**
+![Error](Practica_2.png)
+Desde el repositorio local, solo se me muestra la rama principal. Sin embargo, en el repositorio remoto, se me muestran más.
+
+---
+---
+# **Práctica 3**
+![Error](Practica_3.png)
+Para cambiar de rama, he usado el comando 'git checkout practica01'. A pesar que no se me mostraba la rama con 'git branch', he podido cambiar de rama sin problemas. Al hacerlo, se me han cambiado los directorios y ficheros de la carpeta principal.
+
+---
+---
+# **Práctica 4**
+![Error](Practica_4.png)
+Modificado todos los ficheros .txt y realizado el commit.
+
+---
+---
+# **Práctica 5**
+![Error](Practica_5.png)
+Creada la rama practica1_MONTESMUNOZ_ADRIAN.
+
+---
+---
+# **Práctica 6**
+![Error](Practica_6.png)
+Aquí me he movido a la rama recién creada.
+
+---
+---
+# **Práctica 7**
+![Error](Practica_7.png)
+He creado el fichero 'practica1_MONTESMUNOZ_ADRIAN.txt' y le he añadido contenido.
+
+---
+---
+# **Práctica 8**
+![Error](Practica_8.1.png)
+He realizado los cambios indicados y el commit, pero no me es posible subir los cambios al repositorio remoto. Lo que pasa es que Git no sabe dónde enviar los cambios.
+
+![Error](Practica_8.2.png)
+Para solucionar esto, primero he eliminado el remote 'origin' mediante el comando "git remote remove origin".
+
+Seguidamente, he creado un repositorio remoto nuevo y he insertado el comando "git remote add origin https://github.com/AdrianMontes/miPracticaGit.git". Lo que hace este comando es añadir un nuevo remote al repositorio remoto recién creado.
+
+Finalmente, he subido los cambios al repositorio remoto con el comando "git push --set-upstream origin practica1_MONTESMUNOZ_ADRIAN".
+
+---
+---
+# **Práctica 9**
+![Error](Practica_9.png)
+
+Cambiamos a la rama practica01.
+
+---
+---
+# **Práctica 10**
+![Error](Practica_10.png)
+
+Aquí he fusionado las dos ramas indicadas.
+
+---
+---
+# **Práctica 11**
+![Errror](Practica_11.png)
+
+Comandos utilizados durante la práctica.
+
+---
+---
 # **Conflictos 1**
 ![Error](Conflictos_1.png)
 
